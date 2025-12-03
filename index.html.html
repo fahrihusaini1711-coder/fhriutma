@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Muhammad Fahri Husaini — Mahasiswa Universitas Komputama. Portofolio profesional menampilkan profil, skill, project, pengalaman, dan kontak." />
+  <title>Muhammad Fahri Husaini — Portofolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:title" content="Muhammad Fahri Husaini — Portofolio" />
+  <meta property="og:description" content="Mahasiswa Universitas Komputama yang Passionate di Dunia Teknologi & Pengembangan Diri" />
+</head>
+<body>
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- Navbar -->
+  <header class="site-header">
+    <nav class="navbar container" role="navigation" aria-label="Main Navigation">
+      <a href="#hero" class="brand" aria-label="home">
+        <img src="assets/avatar.svg" alt="Avatar" class="brand-avatar">
+        <span class="brand-name">Muhammad Fahri Husaini</span>
+      </a>
+
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <div id="navMenu" class="nav-menu" role="menu">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <div class="nav-actions">
+          <a class="btn btn-outline" href="assets/Muhammad-Fahri-Husaini-CV.pdf" download>Download CV</a>
+          <button id="themeToggle" class="icon-btn" title="Toggle dark mode" aria-pressed="false">🌓</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero container" tabindex="-1">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-title">Muhammad Fahri Husaini</h1>
+          <p class="hero-sub">Mahasiswa Universitas Komputama yang Passionate di Dunia Teknologi & Pengembangan Diri</p>
+          <div class="hero-ctas">
+            <a class="btn" href="assets/Muhammad-Fahri-Husaini-CV.pdf" download>Download CV</a>
+            <a class="btn btn-secondary" href="#contact">Hubungi Saya</a>
+          </div>
+
+          <ul class="hero-meta">
+            <li>Asal: Jawa Tengah</li>
+            <li>Pendidikan: Universitas Komputama</li>
+          </ul>
+        </div>
+
+        <div class="hero-avatar-wrapper" aria-hidden="false">
+          <img src="assets/avatar.svg" alt="Foto Muhammad Fahri Husaini" class="hero-avatar">
+          <div class="avatar-badges">
+            <span class="badge">Mahasiswa</span>
+            <span class="badge">Teknologi</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <p>Deskripsi singkat namun kuat tentang siapa Anda.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Saya Muhammad Fahri Husaini — seorang mahasiswa dari Universitas Komputama dengan ketertarikan kuat di bidang teknologi, pengembangan diri, dan problem solving. Saya disiplin, tekun belajar, dan selalu mencari tantangan baru untuk meningkatkan kemampuan.
+          </p>
+
+          <h3>Pendidikan</h3>
+          <ol class="edu-list">
+            <li>SMP Fauzaniyyah</li>
+            <li>SMA Fauzaniyyah</li>
+            <li>Universitas Komputama (Aktif)</li>
+          </ol>
+
+          <h3>Nilai-nilai</h3>
+          <ul class="values">
+            <li>Disiplin</li>
+            <li>Tekun Belajar</li>
+            <li>Suka Teknologi</li>
+            <li>Suka Tantangan</li>
+          </ul>
+        </div>
+
+        <aside class="about-side" aria-labelledby="funfacts-title">
+          <div class="card fun-facts">
+            <h4 id="funfacts-title">Fun Facts</h4>
+            <ul>
+              <li>Suka eksplorasi tool baru</li>
+              <li>Senang ikut serta di kegiatan kampus</li>
+              <li>Gemar membaca & belajar mandiri</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills container">
+      <div class="section-header">
+        <h2>Skills</h2>
+        <p>Hard skills & soft skills yang saya miliki.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skills-column">
+          <h3>Hard Skills</h3>
+          <ul class="skill-list">
+            <li>
+              <div class="skill-head">
+                <span>Dasar komputer</span><span>80%</span>
+              </div>
+              <div class="skill-bar" data-value="80" aria-valuenow="0"><div class="skill-fill"></div></div>
+            </li>
+            <li>
+              <div class="skill-head">
+                <span>Produktivitas digital</span><span>75%</span>
+              </div>
+              <div class="skill-bar" data-value="75" aria-valuenow="0"><div class="skill-fill"></div></div>
+            </li>
+            <li>
+              <div class="skill-head">
+                <span>Office tools</span><span>85%</span>
+              </div>
+              <div class="skill-bar" data-value="85" aria-valuenow="0"><div class="skill-fill"></div></div>
+            </li>
+            <li>
+              <div class="skill-head">
+                <span>Pengelolaan data dasar</span><span>70%</span>
+              </div>
+              <div class="skill-bar" data-value="70" aria-valuenow="0"><div class="skill-fill"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skills-column">
+          <h3>Soft Skills</h3>
+          <ul class="skill-list soft">
+            <li>
+              <div class="skill-head"><span>Komunikasi</span></div>
+              <div class="skill-pill">Excellent</div>
+            </li>
+            <li>
+              <div class="skill-head"><span>Teamwork</span></div>
+              <div class="skill-pill">Very Good</div>
+            </li>
+            <li>
+              <div class="skill-head"><span>Leadership</span></div>
+              <div class="skill-pill">Good</div>
+            </li>
+            <li>
+              <div class="skill-head"><span>Manajemen waktu</span></div>
+              <div class="skill-pill">Good</div>
+            </li>
+            <li>
+              <div class="skill-head"><span>Problem solving</span></div>
+              <div class="skill-pill">Very Good</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience / Activities -->
+    <section id="experience" class="experience container">
+      <div class="section-header">
+        <h2>Experience & Activities</h2>
+        <p>Kegiatan sekolah dan kampus yang pernah saya ikuti.</p>
+      </div>
+
+      <ul class="experience-list">
+        <li>
+          <h4>Organisasi OSIS / UKM</h4>
+          <p>Anggota dan panitia acara internal sekolah / kampus yang memperkuat kemampuan teamwork dan kepanitiaan.</p>
+        </li>
+        <li>
+          <h4>Proyek Tugas Besar</h4>
+          <p>Proyek akademik kolaboratif yang melatih perencanaan, eksekusi, dan presentasi.</p>
+        </li>
+        <li>
+          <h4>Panitia Event</h4>
+          <p>Berperan dalam perencanaan & eksekusi acara, pengelolaan peserta, dan dokumentasi.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects container">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <p>Contoh project (dummy). Ganti dengan project nyata Anda beserta link & repo.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card" tabindex="0">
+          <div class="project-media" style="background-image: linear-gradient(135deg,#e6f7ff,#dfeefe);">
+            <img src="assets/project-1.svg" alt="Project 1 image">
+          </div>
+          <div class="project-body">
+            <h3>Project Website Sederhana</h3>
+            <p>Website responsif untuk event kampus dengan fitur pendaftaran online.</p>
+            <div class="project-actions">
+              <a class="link" href="#" aria-label="Lihat project">Lihat</a>
+              <a class="link" href="#" aria-label="Repo">Repo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0">
+          <div class="project-media" style="background-image: linear-gradient(135deg,#fff4e6,#fff0d9);">
+            <img src="assets/project-2.svg" alt="Project 2 image">
+          </div>
+          <div class="project-body">
+            <h3>Aplikasi Pengelolaan Data</h3>
+            <p>Aplikasi sederhana untuk mengorganisir data peserta dan laporan kegiatan.</p>
+            <div class="project-actions">
+              <a class="link" href="#">Lihat</a>
+              <a class="link" href="#">Repo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0">
+          <div class="project-media" style="background-image: linear-gradient(135deg,#eafaf1,#e0f6e6);">
+            <img src="assets/project-3.svg" alt="Project 3 image">
+          </div>
+          <div class="project-body">
+            <h3>Mini Dashboard</h3>
+            <p>Dashboard sederhana menampilkan statistik kegiatan dan progress project.</p>
+            <div class="project-actions">
+              <a class="link" href="#">Lihat</a>
+              <a class="link" href="#">Repo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0">
+          <div class="project-media" style="background-image: linear-gradient(135deg,#f4f3ff,#ececff);">
+            <img src="assets/project-4.svg" alt="Project 4 image">
+          </div>
+          <div class="project-body">
+            <h3>Landing Page</h3>
+            <p>Desain landing page modern untuk promosi kegiatan.</p>
+            <div class="project-actions">
+              <a class="link" href="#">Lihat</a>
+              <a class="link" href="#">Repo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="education container">
+      <div class="section-header">
+        <h2>Education</h2>
+        <p>Timeline pendidikan saya.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <h4>SMP Fauzaniyyah</h4>
+            <p>Dasar pembentukan disiplin dan minat akademik.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <h4>SMA Fauzaniyyah</h4>
+            <p>Pengembangan keterampilan dan partisipasi aktif dalam organisasi.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <h4>Universitas Komputama</h4>
+            <p>Saat ini aktif menempuh studi dan berkolaborasi pada proyek kampus.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery container" aria-label="Gallery">
+      <div class="section-header">
+        <h2>Gallery</h2>
+        <p>Dokumentasi kegiatan dan project.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <img src="assets/gallery-1.svg" alt="Gallery photo 1" class="gallery-item" loading="lazy">
+        <img src="assets/gallery-2.svg" alt="Gallery photo 2" class="gallery-item" loading="lazy">
+        <img src="assets/gallery-3.svg" alt="Gallery photo 3" class="gallery-item" loading="lazy">
+        <img src="assets/gallery-4.svg" alt="Gallery photo 4" class="gallery-item" loading="lazy">
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact container">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Form kontak atau kontak langsung via WhatsApp / Email.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Nama</label>
+            <input id="name" name="name" type="text" placeholder="Nama Anda" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="email@domain.com" required>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan..." required></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn">Kirim Pesan</button>
+            <button type="reset" class="btn btn-outline">Reset</button>
+          </div>
+
+          <p class="form-note">Form ini terhubung secara lokal. Untuk menerima pesan, hubungkan ke layanan backend (Formspree / Email API) atau gunakan mailto di tombol samping.</p>
+        </form>
+
+        <aside class="contact-info" aria-labelledby="contact-title">
+          <h3 id="contact-title">Hubungi Langsung</h3>
+          <p>
+            <strong>Email:</strong>
+            <a id="emailLink" href="mailto:youremail@example.com">youremail@example.com</a>
+          </p>
+          <p>
+            <strong>WhatsApp:</strong>
+            <a id="waLink" href="https://wa.me/6281234567890" target="_blank" rel="noopener">Chat via WhatsApp</a>
+          </p>
+
+          <div class="socials" aria-label="social links">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">LI</a>
+            <a href="#" aria-label="GitHub">GH</a>
+          </div>
+
+          <div class="location">
+            <strong>Lokasi:</strong>
+            <p>Jawa Tengah, Indonesia</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p>© <span id="year"></span> Muhammad Fahri Husaini. All rights reserved.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="#hero">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js" defer></script>
+</body>
+</html>
